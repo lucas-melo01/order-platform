@@ -23,11 +23,15 @@ namespace OrderService.Infrastructure.Messaging.Kafka
             var topic = typeof(T).Name; 
             var payload = JsonSerializer.Serialize(@event);
 
-            await _producer.ProduceAsync(topic, new Message<string, string>
+            await _producer.ProduceAsync(
+            "order-created",
+            new Message<string, string>
             {
                 Key = Guid.NewGuid().ToString(),
                 Value = payload
             });
+
+            _producer.Flush(TimeSpan.FromSeconds(5));
         }
     }
 }

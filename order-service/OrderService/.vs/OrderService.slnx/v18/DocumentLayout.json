@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{476D83EF-5FD8-B235-122D-A4EAB1F7AA52}|OrderService.Infrastructure\\OrderService.Infrastructure.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\projetos\\order-platform\\order-service\\orderservice\\orderservice.infrastructure\\messaging\\kafka\\kafkaeventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476D83EF-5FD8-B235-122D-A4EAB1F7AA52}|OrderService.Infrastructure\\OrderService.Infrastructure.csproj|solutionrelative:orderservice.infrastructure\\messaging\\kafka\\kafkaeventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578C0631-1C95-C883-0BB5-2B92C1A3B9BE}|OrderService.Application\\OrderService.Application.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\projetos\\order-platform\\order-service\\orderservice\\orderservice.application\\commands\\createorder\\createorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578C0631-1C95-C883-0BB5-2B92C1A3B9BE}|OrderService.Application\\OrderService.Application.csproj|solutionrelative:orderservice.application\\commands\\createorder\\createorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578C0631-1C95-C883-0BB5-2B92C1A3B9BE}|OrderService.Application\\OrderService.Application.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\projetos\\order-platform\\order-service\\orderservice\\orderservice.application\\commands\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578C0631-1C95-C883-0BB5-2B92C1A3B9BE}|OrderService.Application\\OrderService.Application.csproj|solutionrelative:orderservice.application\\commands\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA4184-13C1-DD4E-F076-4FC54DEBC480}|OrderService.API\\OrderService.API.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\projetos\\order-platform\\order-service\\orderservice\\orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA4184-13C1-DD4E-F076-4FC54DEBC480}|OrderService.API\\OrderService.API.csproj|solutionrelative:orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578C0631-1C95-C883-0BB5-2B92C1A3B9BE}|OrderService.Application\\OrderService.Application.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\projetos\\order-platform\\order-service\\orderservice\\orderservice.application\\ports\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578C0631-1C95-C883-0BB5-2B92C1A3B9BE}|OrderService.Application\\OrderService.Application.csproj|solutionrelative:orderservice.application\\ports\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578C0631-1C95-C883-0BB5-2B92C1A3B9BE}|OrderService.Application\\OrderService.Application.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\projetos\\order-platform\\order-service\\orderservice\\orderservice.application\\events\\ordercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578C0631-1C95-C883-0BB5-2B92C1A3B9BE}|OrderService.Application\\OrderService.Application.csproj|solutionrelative:orderservice.application\\events\\ordercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF1CF7D3-2001-7883-BFB5-93854AEEC3BF}|OrderService.Domain\\OrderService.Domain.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\projetos\\order-platform\\order-service\\orderservice\\orderservice.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF1CF7D3-2001-7883-BFB5-93854AEEC3BF}|OrderService.Domain\\OrderService.Domain.csproj|solutionrelative:orderservice.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "OrderService.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "OrderService.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T02:19:57.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderCreatedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Application\\Events\\OrderCreatedEvent.cs",
+              "RelativeDocumentMoniker": "OrderService.Application\\Events\\OrderCreatedEvent.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Application\\Events\\OrderCreatedEvent.cs",
+              "RelativeToolTip": "OrderService.Application\\Events\\OrderCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T02:19:40.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateOrderHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Application\\Commands\\CreateOrder\\CreateOrderHandler.cs",
+              "RelativeDocumentMoniker": "OrderService.Application\\Commands\\CreateOrder\\CreateOrderHandler.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Application\\Commands\\CreateOrder\\CreateOrderHandler.cs",
+              "RelativeToolTip": "OrderService.Application\\Commands\\CreateOrder\\CreateOrderHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T02:19:34.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Application\\Commands\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "OrderService.Application\\Commands\\CreateOrder\\CreateOrderCommand.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Application\\Commands\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeToolTip": "OrderService.Application\\Commands\\CreateOrder\\CreateOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T02:19:32.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KafkaEventBus.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Infrastructure\\Messaging\\Kafka\\KafkaEventBus.cs",
+              "RelativeDocumentMoniker": "OrderService.Infrastructure\\Messaging\\Kafka\\KafkaEventBus.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Infrastructure\\Messaging\\Kafka\\KafkaEventBus.cs",
+              "RelativeToolTip": "OrderService.Infrastructure\\Messaging\\Kafka\\KafkaEventBus.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T02:19:04.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEventBus.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Application\\Ports\\IEventBus.cs",
+              "RelativeDocumentMoniker": "OrderService.Application\\Ports\\IEventBus.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.Application\\Ports\\IEventBus.cs",
+              "RelativeToolTip": "OrderService.Application\\Ports\\IEventBus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T02:18:58.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.API\\Program.cs",
+              "RelativeDocumentMoniker": "OrderService.API\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\order-platform\\order-service\\OrderService\\OrderService.API\\Program.cs",
+              "RelativeToolTip": "OrderService.API\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T01:08:32.899Z",
+              "EditorCaption": ""
             }
           ]
         }

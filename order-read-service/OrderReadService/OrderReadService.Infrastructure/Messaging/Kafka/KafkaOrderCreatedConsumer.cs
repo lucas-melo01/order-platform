@@ -21,12 +21,12 @@ namespace OrderReadService.Infrastructure.Messaging.Kafka
             var config = new ConsumerConfig
             {
                 BootstrapServers = "localhost:9092",
-                GroupId = "order-read-service",
+                GroupId = "order-read-service-v2",
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
 
             using var consumer = new ConsumerBuilder<string, string>(config).Build();
-            consumer.Subscribe("OrderCreatedEvent");
+            consumer.Subscribe("order-created");
 
             while (!stoppingToken.IsCancellationRequested)
             {
