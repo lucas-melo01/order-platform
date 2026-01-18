@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="OrderReadService.API/OrderReadService.API.csproj" />
+  <Project Path="OrderReadService.Application/OrderReadService.Application.csproj" />
+  <Project Path="OrderReadService.Domain/OrderReadService.Domain.csproj" />
+  <Project Path="OrderReadService.Infrastructure/OrderReadService.Infrastructure.csproj" />
+</Solution>
