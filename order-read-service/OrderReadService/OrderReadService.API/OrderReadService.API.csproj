@@ -8,15 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\OrderReadService.Application\OrderReadService.Application.csproj" />
     <ProjectReference Include="..\OrderReadService.Domain\OrderReadService.Domain.csproj" />
+    <ProjectReference Include="..\OrderReadService.Infrastructure\OrderReadService.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
